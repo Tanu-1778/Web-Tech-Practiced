@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+ <style>
+    h2{
+        color: #2D3C59;
+        font-style: italic;
+
+    }
+
+    fieldset{
+        border: 2px solid purple;
+        background-color: #EDE4FF;
+        width: 300px;
+    }
+
+    .label{
+        color: #3E001F;
+    }
+      
+    input{
+        background-color: whitesmoke;
+        color: #9E3B3B;
+        border: 1px solid #000000;
+    }
+
+    button{
+        background-color: #7C73C0;
+    }
+
+    .gender{
+        color: #2902169d;
+    }
+
+    h3{
+        color:#3E001F
+    }
+
+    .opt{
+        background-color: antiquewhite;
+        color: #9E3B3B;
+
+    }
+
+ </style>
+<body>
+    <h2>Login Form</h2>
+
+  <form autocomplete="on">
+    <fieldset>
+        <label for="fname" class="label"><b>First Name:</b></label>
+        <input type="text" id="fnme" placeholder="Enter your first Name">
+        <br><br>
+
+        <label for="lname" class="label"><b>Last Name:</b></label>
+        <input type="text" id="lname" placeholder="Enter your Last Name">
+        <br><br>
+
+        <label for="username" class="label"><b>UserName:</b></label>
+        <input type="text" id="username" placeholder="Enter Username">
+        <br><br>
+
+        <label for="password" class="label"><b>Password:</b></label>
+        <input type="password" id="password" required placeholder="Enter your password" minlength="8">
+        <br><br>
+
+        <label for="email" class="label"><b>Email:</b></label>
+        <input type="email" id="email" required placeholder="Enter your email id">
+        <br><br>
+
+        <label for="dob" class="label"><b>DOB:</b></label>
+        <input type="date" id="dob" >
+        <br><br>
+
+        <label for="gender" class="label"><b>Gender:</b></label>
+        <br>
+        <b class="gender">Male</b><input type="radio" name="gender" >
+        <br>
+        <b class="gender">Female</b><input type="radio" name="gender" >
+        <br>
+        <b class="gender">Other</b><input type="radio" name="gender" >
+        <br>
+
+         <h3>Skills:</h3>
+        <select name="skills" id="skills" class="label">Skills:
+            <option class="opt" value="html">HTML</option>
+            <option class="opt" value="css">CSS</option>
+            <option class="opt" value="JavaScript">JavaScript</option>
+            <option class="opt" value="java" reserved>Java</option>
+        </select>
+        <br><br>
+        
+        <button>Create</button>
+        <button>Cancel</button>
+
+    </fieldset>
+  </form>
+<br><br>
+
+ <form>
+        <fieldset>
+            <legend>LOGIN FORM</legend>
+            <label for="UserName">UserName:</label>
+            <input type="text" id="UserName">
+            <br><br>
+
+            <label for="PassWord">Password:</label>
+            <input type="password" id="PassWord">
+            <br><br>
+
+            <button>LogIn</button>
+            <button>Cancel</button>
+            <br><br>
+
+            <a href="">Forgot Password..?</a>
+        </fieldset>
+    </form>
+<br><br>
+
+    <form>
+        <fieldset>
+            <legend>SIGNUP PAGE</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br><br>
+            
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname">
+            <br><br>
+
+            <label for="Pnum">Phone Number:</label>
+            <input type="text" id="Pnum">
+            <br><br>
+
+            <label for="Uname">UserName</label>
+            <input type="text" id="Uname">
+            <br><br>
+
+            <label for="Password">Password:</label>
+            <input type="password" id="Password">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br><br>
+
+            <label for="otp">OTP</label>
+            <input type="text" id="otp">
+            <br><br>
+
+            <button>SignUp</button>
+            <button>Cancel</button>
+            <br><br>
+
+            <a href="">Already have an account...?</a>
+
+        </fieldset>
+    </form>
+<br><br>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname">
+
+            <label for="mname">Middle Name:</label>
+            <input type="text" id="mname">
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname">
+            <br><br>
+
+            <label>Gender:</label>
+            <br><br>
+            <input type="radio"  name="gender">Male
+            <input type="radio"  name="gemder">Female
+            <input type="radio"  name="gender">Other
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age">
+
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" id="DOB">
+            <br><br>
+
+            <label for="grade">Grade:</label>
+            <input type="number" id="grade">
+
+            <label for="school">School:</label>
+            <input type="text" id="school">
+            <br><br>
+
+            <label for="MName">Mother Name:</label>
+            <input type="text" id="MName">
+
+            <label for="faname">Father Name:</label>
+            <input type="text" id="faname">
+            <br><br>
+
+            <label for="add">Address:</label>
+            <input type="text" id="add">
+            <br><br>
+
+            <label for="pnum">Phone Number:</label>
+            <input type="tel" id="pnum"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br><Br>
+
+            <label for="pwd" > Password</label>
+            <input id="pwd" type="password">
+            <br><br>
+
+            <label for="document">upload your documents</label>
+            <input type="file" id="document">
+            <br><br>
+
+            <label for="kn">How much knowledge do you have</label>
+            <input type="range" id="kn">
+            <br><br>
+            
+            <h1>Select Country:</h1>
+            <select>
+                <option value="England">England</option>
+                <option value="India">India</option>
+               <option value="USA">USA</option>
+            </select>
+            <br><br>
+
+            <h2>Add some feedback...</h2>
+            <textarea></textarea>
+            <br><br>
+
+            <checkbox>all the details are filed.</checkbox>
+
+            <br><br>
+
+            <button>Submit</button> 
+            <button>Cancel</button>   
+
+        </fieldset>
+    </form> 
+
+    <audio src="./song.mp3" controls loop autoplay muted></audio>
+    <br><br>
+    <video src="./video.mp4" controls muted autoplay height="500px" width="400px"></video>
+    <hr><hr>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1-4qvmShjlg?si=1kWGLA_9loDfLn80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr><hr>
+    <label for="url"> pass the url</label>
+    <input type="url" id="url">
+    <br><br>
+    
+    <label for="otp">otp</label>
+    <input type="text" id="otp" maxlength="4">
+    <br><br>
+
+    <label for="disabled">disabled</label>
+    <input type="text" disabled id="disabled">
+    <br><br>
+
+    <label for="read">Read Only</label>
+    <input type="text" id="read" readonly>
+
+</body>
+</html> 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+</head>
+<style>
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+    }
+    nav{
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gold;
+    }
+
+    #logoblock,#menublock{
+        height: 75px;
+        width: 400px;
+    
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    #logoblock img{
+        mix-blend-mode: multiply;
+        height: 90px;
+    }
+
+    #menublock>a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #photoblock{
+        height: 80vh;
+        background-color: lightgrey;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #photo1,#photo2{
+        height: 300px;
+        width: 300px;
+        border-radius: 30px;
+    
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 12px white;
+    }
+
+    #photoblock img{
+        height: 250px;
+        
+    }
+
+</style>
+<body>
+    <nav>
+        <div id="logoblock">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.Y1vX5HBgAvXRxb1zWTjhXwHaEK?pid=Api&P=0&h=180">
+        </div>
+        <div id="menublock" style="width: 600px;">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+            <a href="">PROFILE</a>
+        </div>
+    </nav>
+   
+
+    <div id="photoblock">
+        <div id="photo1"><img src="https://www.apple.com/v/airpods-max/b/images/overview/hero__gnfk5g59t0qe_xlarge.png"></div>
+        <div id="photo2"><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6373/6373460_sd.jpg"></div>
+    </div>
+    
+</body>
+</html>

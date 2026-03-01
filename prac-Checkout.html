@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Bill</title>
+    <style>
+        button{
+            background-color: darkblue;
+            color: white;
+        }
+
+        .form{
+            background-color: lightsteelblue;
+            width: 500px;
+            border: 2px solid darkslategray;
+        }
+
+        h3{
+            color: brown;
+        }
+
+        h2{
+            color: darkcyan;
+        }
+
+        #sa{
+            color: brown;
+        }
+
+        a:link{
+            color: darkred;
+        }
+
+        a:visited{
+            color: darkgreen;
+        }
+
+        a:active{
+            color: blueviolet;
+        }
+
+        a:hover{
+            color: indigo;
+            cursor: crosshair;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Checkout Form</h2>
+        <fieldset class="form" id="fd">
+            <table cellspacing="11px">
+                <tr>
+                    <td><h3>Billing Address</h3></td>
+                    <td rowspan="10"></td>
+                    <td><h3 id="pay">Payment</h3></td>
+                </tr>
+                <tr>
+                    <td><label for="fname">Full Name</label></td>
+                    <td><label for="payment">Select payment mode</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="fname" placeholder="Enetr your Full name"></td>
+                    <td>
+                        <select for="payment" id="payment">
+                            <option value="payupi">Pay via an UPI app</option>
+                            <option value="CDC" selected>Credit/Debit Card</option>
+                            <option value="Wallet">Wallet</option>
+                            <option value="Netbanking">Netbanking</option>
+                            <option value="cash">Cash</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td><label for="card">Name On Card</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="email" id="email" placeholder="codinginhtml@gmail.com"></td>
+                    <td><input type="text" id="card" placeholder="Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><label for="cnum">Credit Card Number</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="address" placeholder="Enter your complete address"></td>
+                    <td><input type="number" id="cnum" placeholder="1111222233334444" minlength="16"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="mnum">Mobile Number</label></td>
+                    <td><label for="em">Exp Month</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="tel" id="mnum" placeholder="9123456789"></td>
+                    <td><input type="month" id="em" placeholder="April"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cs">City and State</label></td>
+                    <td><label for="ey"> Exp Year  </label> <input type="number" id="ey" placeholder="2030" maxlength="4"></td>
+                </tr>
+
+                <tr>
+                    <td><select for="cs" id="cs">
+                            <option value="bk">Bengaluru,Karnataka</option>
+                            <option value="ct" selected>Chennai,TamilNadu</option>
+                            <option value="mm">Mumbai,Maharashtra</option>
+                        </select>
+                    </td>
+                    
+
+                </tr>
+                <td><a href="https://www.boat-lifestyle.com/"> Boat</a></td>
+
+                <tr>
+                    <td id="sa" colspan="3"><input type="checkbox">Shipping address same as billing address</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3"><button><center>Continue to checkout...</center></button></td>
+        
+                </tr>
+
+            </table>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
