@@ -1,0 +1,119 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+
+body{
+    height: 100vh;
+    width: 100wh;
+    background-image: linear-gradient(to right, #027dff,#01bdff);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cal-body{
+    height: 700px;
+    width: 500px;
+    border-radius: 12px;
+    background-color: white;
+
+
+}
+
+#cal-input{
+    height: 80px;
+    width: 300px;
+    margin: 10px;
+    margin: 40px;
+
+}
+
+input{
+    height: 80px;
+    width: 400px;
+    border-radius: 12px;
+}
+.row1,.row2,.row3,.row4{
+    height: 80px;
+    width: 400px;
+    margin: 20px 40px ;
+    border-radius: 3px;
+}
+
+#row1,#row2,#row3,#row4{
+    display: flex;
+    align-items: center;
+
+}
+
+.box1{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: #FFD166;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    font-size:x-large;
+
+}
+
+.box2{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: #BBDEFB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+     font-size:x-large;
+
+
+}
+
+.box3{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: #BBDEFB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     border-radius: 12px;
+      font-size:x-large;
+
+
+}
+
+.box4{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: #BBDEFB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+     font-size:x-large;
+
+
+}
+
+#equals{
+    height: 80px;
+    width: 160px;
+    font-size: xx-large;
+    margin: 0px 50px;
+    background-color: #0AD6A0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+}
+
