@@ -1,0 +1,249 @@
+       
+       *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        #galaxy{
+            height: 100vh;
+            width: 100vw;
+           
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-image: url("https://wallpaperaccess.com/full/655045.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #sun{
+            position: absolute;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-image: url("https://www.pngkey.com/png/full/7-73554_sun-transparent-background-download-sun-clipart-science.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 20px whitesmoke;
+    
+
+        }
+        #orbit{
+            height:150px;
+            width: 150px;
+            border: 0.5px solid bisque;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        @keyframes rotating {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        #mercury{
+            height: 25px;
+            width: 25px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 22px;
+            background-image: url("https://static.vecteezy.com/system/resources/previews/043/605/726/non_2x/mercury-planet-on-isolated-transparent-background-png.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+
+        }
+
+        #orbit2{
+            height: 200px;
+            width: 200px;
+            border: 0.5px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #venus{
+            height: 25.5px;
+            width: 25.5px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 38px;
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/016/778/852/small_2x/planet-galaxy-space-free-png.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit3{
+            height: 250px;
+            width: 250px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #earth{
+            height: 26px;
+            width: 26px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 58px;
+            background-image: url("https://pngimg.com/uploads/globe/globe_PNG100087.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit4{
+            height: 300px;
+            width: 300px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+            
+        }
+
+        #mars{
+            height: 26.5px;
+            width: 26.5px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 68px;
+            background-image: url("https://pngimg.com/d/mars_planet_PNG38.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit5{
+            height: 350px;
+            width: 350px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #jupiter{
+            height: 27px;
+            width: 27px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 89px;
+            background-image: url("https://static.vecteezy.com/system/resources/previews/047/308/636/non_2x/jupiter-planet-on-transparent-background-free-png.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit6{
+            height: 400px;
+            width: 400px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #saturn{
+            height: 27.5px;
+            width: 27.5px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 108px;
+            background-image: url("https://static.vecteezy.com/system/resources/previews/047/084/463/non_2x/saturn-planet-on-transparent-background-png.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit7{
+            height: 450px;
+            width: 450px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #uranus{
+            height: 28px;
+            width: 28px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 128px;
+            background-image: url("https://static.vecteezy.com/system/resources/previews/055/027/575/non_2x/uranus-planet-on-transparent-background-free-png.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit8{
+            height: 500px;
+            width: 500px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #naptune{
+            height: 28.5px;
+            width: 28.5px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 148px;
+            background-image: url("https://static.vecteezy.com/system/resources/previews/046/829/292/non_2x/neptune-planet-isolated-on-transparent-background-png.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px whitesmoke;
+        }
+
+        
+        #orbit9{
+            height:550px;
+            width: 550px;
+            border: 1px solid whitesmoke;
+            border-radius: 50%; 
+            animation: rotating 4s linear 0s infinite normal; 
+            position: absolute;
+        }
+
+        #pluto{
+            height: 28px;
+            width: 28px;
+            
+            border-radius: 50%;
+            position: relative;
+            top: 178px;
+            background-image: url("https://png.pngtree.com/png-clipart/20240310/original/pngtree-pluto-planet-space-png-image_14550758.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 10px black;
+        }
+
+
