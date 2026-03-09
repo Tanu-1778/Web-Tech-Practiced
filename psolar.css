@@ -26,7 +26,7 @@
             background-image: url("https://www.pngkey.com/png/full/7-73554_sun-transparent-background-download-sun-clipart-science.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 20px whitesmoke;
+            box-shadow: 0px 0px 20px orangered;
     
 
         }
@@ -35,7 +35,7 @@
             width: 150px;
             border: 0.5px solid bisque;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -58,7 +58,7 @@
             background-image: url("https://static.vecteezy.com/system/resources/previews/043/605/726/non_2x/mercury-planet-on-isolated-transparent-background-png.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+            
 
         }
 
@@ -67,7 +67,7 @@
             width: 200px;
             border: 0.5px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.2s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -81,7 +81,7 @@
             background-image: url("https://static.vecteezy.com/system/resources/thumbnails/016/778/852/small_2x/planet-galaxy-space-free-png.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+          
         }
 
         
@@ -90,21 +90,21 @@
             width: 250px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.3s linear 0s infinite normal; 
             position: absolute;
         }
 
         #earth{
             height: 26px;
             width: 26px;
-            
+        
             border-radius: 50%;
             position: relative;
             top: 58px;
             background-image: url("https://pngimg.com/uploads/globe/globe_PNG100087.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+          
         }
 
         
@@ -113,7 +113,7 @@
             width: 300px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.4s linear 0s infinite normal; 
             position: absolute;
             
         }
@@ -128,7 +128,7 @@
             background-image: url("https://pngimg.com/d/mars_planet_PNG38.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+     
         }
 
         
@@ -137,7 +137,7 @@
             width: 350px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.5s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -151,7 +151,7 @@
             background-image: url("https://static.vecteezy.com/system/resources/previews/047/308/636/non_2x/jupiter-planet-on-transparent-background-free-png.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+            
         }
 
         
@@ -160,7 +160,7 @@
             width: 400px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.6s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -174,7 +174,7 @@
             background-image: url("https://static.vecteezy.com/system/resources/previews/047/084/463/non_2x/saturn-planet-on-transparent-background-png.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+            
         }
 
         
@@ -183,7 +183,7 @@
             width: 450px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.8s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -197,7 +197,7 @@
             background-image: url("https://static.vecteezy.com/system/resources/previews/055/027/575/non_2x/uranus-planet-on-transparent-background-free-png.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
+           
         }
 
         
@@ -206,7 +206,7 @@
             width: 500px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 5.12s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -220,7 +220,6 @@
             background-image: url("https://static.vecteezy.com/system/resources/previews/046/829/292/non_2x/neptune-planet-isolated-on-transparent-background-png.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px whitesmoke;
         }
 
         
@@ -229,7 +228,7 @@
             width: 550px;
             border: 1px solid whitesmoke;
             border-radius: 50%; 
-            animation: rotating 4s linear 0s infinite normal; 
+            animation: rotating 6s linear 0s infinite normal; 
             position: absolute;
         }
 
@@ -243,7 +242,9 @@
             background-image: url("https://png.pngtree.com/png-clipart/20240310/original/pngtree-pluto-planet-space-png-image_14550758.png");
             background-repeat: no-repeat;
             background-size: cover;
-            box-shadow: 0px 0px 10px black;
+        
         }
+
+                
 
 
